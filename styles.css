@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@1,700&display=swap');
+
+body{
+    background-color: aliceblue;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 3em;
+}
+
+.new_york{
+    width: 1100px;
+    height:400px;
+    padding: 50px;
+   
+    
+}
+
+.pizza {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+}
+
+.pizza:hover + .hover-text{
+    display: block;
+}
+
+.hover-text{
+    display: none;
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Arsenal', sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.la{
+    width: 1100px;
+    height:500px;
+    padding: 50px;
+    
+}
+
+.solar-wheel {
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+}
+
+.solar-wheel:hover + .hover-text{
+    display: block;
+}
+
+.hover-text{
+    display: none;
+    font-size: 1.5em;
+    color: black; 
+    font-family: 'Arsenal', sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.chicago{
+    width: 1100px;
+    height:500px;
+    padding: 50px;
+    
+}
+
+.rail {
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+}
+
+.rail:hover + .hover-text{
+    display: block;
+}
+
+.hover-text{
+    display: none;
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Arsenal', sans-serif;
+    transition: opacity 0.3s ease;
+}
